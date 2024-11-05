@@ -25,10 +25,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - id: Build-Vue
-      uses: alphaleadership/VuePagesAction@1.0.18
+      uses: alphaleadership/VuePagesAction@latest
       with:
-        username: 'thomas-iniguez-visioli'
-        reponame: 'portfolio'
+        username: 'githubname'
+        reponame: 'githubrepo'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
     
    
